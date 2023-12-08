@@ -142,4 +142,63 @@ Result:
 
 `World!`
 
-### Basic Operations
+## Basic Operations
+
+### Arithmetic Operations
+
+`+ (Addition)`
+
+`- (Subtraction)`
+
+`* (Multiplication)`
+
+`/ (Devision)`
+
+`// (Floor Devision)`
+
+`% (Modulus)`
+
+`** (Exponentiation)`
+
+``
+```py
+a = 10
+b = 3 
+
+print(a + b)  # print value = 13
+print(a - b)  # print value = 7
+print(a * b)  # print value = 30
+print(a / b)  # print value = 3.3333333333333335
+print(a // b) # print value = 3
+print(a % b)  # print value = 1
+print(a ** b) # print value = 1000
+```
+
+### Comparison Operators
+
+`> (Greater than)`
+
+`< (Less than)`
+
+`>=	(Greater than or equal to)`
+
+`<=	(Less than or equal to)`
+
+`== (Equal)`
+
+`!=	(Not equal)`
+
+```py
+a = 5
+b = 10
+c = '10'
+f = b
+
+print(a > b)   #Result: False
+print(a < b)   #Result: True
+print(a >= f)  #Result: True
+print(c <= b)  #Result: True
+print(b == a)  #Result: Fasle
+print(b != f)  #Result: True
+```
+
