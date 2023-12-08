@@ -125,3 +125,87 @@ print(new_txt)
 
 Result: `Salom World, Salom Alisher, Salom Bek`
 
+## (2) startswich(), endswich(), find(), index(), split(), join()
+
+1. `startswich()` bu metod o'zgaruvchi ichida biz xohlagan matn bormi yakmi tekshirib beradi. (o'zgaruvchini boshidan)
+
+```py
+txt = 'Hello World'
+
+new_txt = txt.startswich('Hello')
+
+print(new_txt)
+```
+
+Result: `True`
+
+
+2. `endswich()` bu metod 'zgaruvchi ichida biz xohlagan matn bormi yakmi tekshirib beradi fakat oxiridan. (o'zgaruvchini oxiridan)
+
+```py
+txt = 'Hello World'
+
+new_txt = txt.endswich('World')
+
+print(new_txt)
+```
+
+Result: `True`
+
+3. `index()` and `find` bu metodlar matning bosh harfi nechanchi indeksda turganini qaytaradi.
+
+- `index()`
+
+```py
+txt = 'Hello World, Apple'
+
+new_txt = txt.index('World')
+new_txt_2 = txt.index('Apple')
+
+print(new_txt)
+print(new_txt_2)
+```
+
+Result: `6`
+
+Result: `13`
+
+- `find()`
+
+```py
+txt = 'Hello World Apple'
+
+new_txt = txt.find('World')
+new_txt_2 = txt.find('Apple')
+
+print(new_txt)
+print(new_txt_2)
+```
+
+Result: `6`
+Result: `13`
+
+❗️ `index()` va `find()` bir xil vazifani bajaradi, lekin ularning ma’lum bir farqi bor.
+
+`index()` biz bergan mantini topa olmasa bizga javoban error qaytaradi. 
+`find()` esa bizga javoban `-1` qaytaradi
+
+```py
+txt = 'Hello World'
+
+new_txt_index = txt.find('Apple')
+new_txt_find = txt.find('Apple')
+
+print(new_txt_index)
+print(new_txt_find)
+```
+
+Result index: `ValueError: substring not found`
+
+Result fint: `-1`
+
+
+
+
+
+
