@@ -1,33 +1,3 @@
-# ism = 'Alisher'
-# familiya = 'Mominov'
-
-# print(ism + '  ' + familiya)
-# print('Mening ismim: ' + ism)
-
-# <<============ f-string ============>>
-
-# Ikki (va undan ko'p) matn ko'rinishidagi o'zgaruvchilarni birlashtirish uchun f-string usulidan  f"{matn1} {matn2}" ham foydalansak bo'ladi:
-
-# result = f"{ism} {familiya}"
-
-# print(result)
-
-# (Bu usul yordamida uzun matnlarni ham yasash mumkin:)
-
-# ism = "Alisher"
-# falimiya = "Mominov"
-
-# result = f"Hi, My first name {ism} My last name {falimiya}"
-
-# print(result)
-
-# <<============ Special characters - Mahsus belgilar ============>>
-
-# print('Hello World!')     #Result Hello World
-# print('Hello \tWorld!')   #Result Hello   World
-# print('Hello \nWorld!')   #Result Hello 
-                                # World
-
 # <<============ String Methods - Matin Metodlari ============>>
 
 # first_name = 'Abdulloh'
@@ -61,3 +31,17 @@
 # print(txt.center(30))
 # print(len(txt))
 
+# txt = '   Hello  '
+
+# print(txt.strip())
+# print(txt.lstrip())
+# print(txt.rstrip())
+
+
+# txt = 'Hello World'
+
+# print(txt.replace('Hello', 'Salom'))
+
+txt = 'Hello World, Hello Apple'
+
+print(txt.replace('Hello', 'Salom'))
