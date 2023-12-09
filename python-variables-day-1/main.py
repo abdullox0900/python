@@ -4,7 +4,35 @@
 # This is comment v2
 '''
 
+# ism = 'Alisher'
+# familiya = 'Mominov'
 
+# print(ism + '  ' + familiya)
+# print('Mening ismim: ' + ism)
+
+# <<============ f-string ============>>
+
+# Ikki (va undan ko'p) matn ko'rinishidagi o'zgaruvchilarni birlashtirish uchun f-string usulidan  f"{matn1} {matn2}" ham foydalansak bo'ladi:
+
+# result = f"{ism} {familiya}"
+
+# print(result)
+
+# (Bu usul yordamida uzun matnlarni ham yasash mumkin:)
+
+# ism = "Alisher"
+# falimiya = "Mominov"
+
+# result = f"Hi, My first name {ism} My last name {falimiya}"
+
+# print(result)
+
+# <<============ Special characters - Mahsus belgilar ============>>
+
+# print('Hello World!')     #Result Hello World
+# print('Hello \tWorld!')   #Result Hello   World
+# print('Hello \nWorld!')   #Result Hello 
+                                # World
 
 # =================== Python Date types ===================
 
@@ -31,7 +59,6 @@ dictionary_variables = {"name": "Me", "age": "18"}
 
 # This is a (None)
 none_variables = None
-
 
 # <=================== Basic Operations ===================> #
 
