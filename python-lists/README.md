@@ -33,4 +33,28 @@ Result: `Birinchi meva: olma`
 
 Result: `Ikkinchi meva: anjir`
 
-Agar list ichidagi elementlar matn ko'rinishid bo'lsa, ularga [string metodlarni]() qo'llashimiz mumkin:
+Agar list ichidagi elementlar matn ko'rinishid bo'lsa, ularga [string metodlarni](https://github.com/abdullox0900/python/tree/main/python-strings) qo'llashimiz mumkin:
+
+```py
+names = ['nurillo', 'abdulaziz', 'muhammadaziz']
+
+print(names[0].title())
+print(names[1].capitalize())
+print(names[2].upper())
+```
+
+Result: `Nurillo`
+
+Result: `Abdulaziz`
+
+Result: `MUHAMMADAZIZ`
+
+List elementlari ustida arifmetik amallar bajarish:
+
+```py
+prices = [12000, 18000, 10900, 22000]
+
+print(prices[0] + prices[3])
+```
+
+Result: `34000`
