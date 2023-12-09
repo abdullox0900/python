@@ -119,3 +119,11 @@
 
 # print(compile(x_float))
 
+
+txt = 'apple, orange, kiwi, banana'
+
+
+new_list = txt.split()
+
+new_txt = ' '.join(new_list)
+print(new_txt)

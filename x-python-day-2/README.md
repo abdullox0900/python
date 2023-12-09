@@ -204,8 +204,93 @@ Result index: `ValueError: substring not found`
 
 Result fint: `-1`
 
+4. `spit()` bu metod oddiy matini listga ogirib beradi
+
+```py
+txt = 'apple orangem kiwi banana'
+
+new_txt_list = txt.split()
+
+print(new_txt_list)
+```
+
+Result: `['apple', 'orange', 'kiwi', 'banana']`
+
+5. `join()` metod listni matnga ogirib beradi
+
+```py
+x_list = ['apple', 'orange', 'kiwi', 'banana']
+
+txt = ' '.join(x_list)
+
+print(txt)
+```
+
+Result: `apple orange kiwi banana`
 
 
+## All python strint methods lenght: 43
 
+### 1. Conversion:
 
+- `str.capitalize()`
+- `str.lower()`
+- `str.upper()`
+- `str.title()`
+- `str.swapcase()`
 
+### 2. Information:
+
+- `str.count(substring)`
+- `str.endswith(suffix)`
+- `str.startswith(prefix)`
+- `str.find(substring) or str.index(substring)`
+- `str.isalnum()`
+- `str.isalpha()`
+- `str.isnumeric()`
+- `str.islower()`
+- `str.isupper()`
+
+### 3. Modification:
+
+- `str.replace(old, new)`
+- `str.strip([chars])`
+- `str.lstrip([chars])`
+- `str.rstrip([chars])`
+- `str.join(iterable)`
+- `str.partition(separator)`
+- `str.rpartition(separator)`
+- `str.center(width[, fillchar])`
+- `str.ljust(width[, fillchar])`
+- `str.rjust(width[, fillchar])`
+- `str.zfill(width)`
+
+### 4. Testing:
+
+- `str.isalnum()`
+- `str.isalpha()`
+- `str.isdigit()`
+- `str.isspace()`
+- `str.isdecimal()`
+- `str.isidentifier()`
+- `str.isprintable()`
+
+### 5. Splitting and Joining:
+
+- `str.split([sep[, maxsplit]])`
+- `str.rsplit([sep[, maxsplit]])`
+- `str.splitlines([keepends])`
+- `str.join(iterable)`
+
+### 6. Formatting:
+
+- `str.format()`
+- `str.format_map(mapping)`
+- `str.lstrip([chars])`
+- `str.rstrip([chars])`
+- `str.strip([chars])`
+
+### 7. Encoding and Decoding:
+
+- `str.encode([encoding[, errors]])`
+- `str.decode([encoding[, errors]])`
